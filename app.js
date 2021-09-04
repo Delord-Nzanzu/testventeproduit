@@ -11,7 +11,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-app.use("/post", router.commande);
+app.use("/commande", router.commande);
+app.use("/article", router.article);
 
 app.listen(port, () => {
   console.log(`http://localhost:${port}`);

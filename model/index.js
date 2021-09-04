@@ -1,11 +1,8 @@
-const personne = require("./personne");
-const commande = require("./ordered");
-const detailcommande = require("./bon-ordered");
-const article = require("./article");
+// const personne = require("./personne");
+// const commande = require("./ordered");
+// const detailcommande = require("./bon-ordered");
+const order = require("./article");
 
 module.export = {
-  personne,
-  commande,
-  detailcommande,
-  article,
+  order,
 };

@@ -6,7 +6,7 @@ const order = mongoose.model(
   new Schema({
     // tes champs
     produit: String,
-    quantite: String,
+    quantite: { type: Number, default: 0 },
     prixdevente: { type: Number, default: 0 },
   })
 );
